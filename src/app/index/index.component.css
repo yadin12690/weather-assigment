@@ -1,0 +1,27 @@
+mat-tab-group{
+  background-color: powderblue;
+}
+
+mat-accordion{
+  overflow: hidden;
+}
+form, button{
+  margin: 0.5rem;
+}
+mat-tab{
+  font-weight: bold;
+}
+
+mat-spinner{
+  margin: auto;
+}
+
+img{
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+mat-grid-tile {
+  background: lightblue;
+  border: 1px solid black;
+}

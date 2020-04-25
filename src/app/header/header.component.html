@@ -1,0 +1,19 @@
+
+  <mat-toolbar color="primary" class="myToolBar">
+
+    <span><a routerLink="">Herolo Weather Task</a></span>
+    <mat-slide-toggle (change)="changeToDarkMode($event)">Dark mode</mat-slide-toggle>
+    <span class="spacer"></span>
+    <div fxShow="true">
+      <ul>
+        <li>
+          <a mat-button routerLink="" routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact:true}">Home</a>
+          <a mat-button routerLink="" routerLinkActive="mat-accent" routerLink="/favorites"
+            routerLinkActive="active">Favorites</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </mat-toolbar>
