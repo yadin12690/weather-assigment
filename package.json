@@ -2,7 +2,7 @@
   "name": "weather-assigment",
   "version": "1.0.0",
   "engines": {
-    "node": "12.14.1"
+    "node": "6.13.4"
   },
   "scripts": {
     "ng": "ng",
