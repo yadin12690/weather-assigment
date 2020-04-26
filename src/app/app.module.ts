@@ -6,7 +6,7 @@ import { AppService } from "./app.service";
 
 //Matrerial Imports
 import { MatCardModule } from "@angular/material/Card";
-import { MatToolbarModule } from "@angular/material/Toolbar";
+import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatTabsModule } from "@angular/material/tabs";
 import { MatButtonModule } from "@angular/material/button";
 import { MatInputModule } from "@angular/material/input";
