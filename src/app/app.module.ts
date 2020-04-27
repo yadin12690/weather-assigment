@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppService } from "./app.service";
 
 //Matrerial Imports
-import { MatCardModule } from "@angular/material/Card";
+import { MatCardModule } from "@angular/material/card";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatTabsModule } from "@angular/material/tabs";
 import { MatButtonModule } from "@angular/material/button";
