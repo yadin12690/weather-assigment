@@ -29,6 +29,7 @@
     "angular-cli-ghpages": "^0.6.2",
     "core-js": "^2.5.4",
     "heroku": "^7.39.5",
+    "ng": "0.0.0",
     "rxjs": "~6.5.5",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
