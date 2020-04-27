@@ -10,6 +10,7 @@
     "start": "node server.js",
     "heroku-postbuild": "ng build --prod",
     "build": "ng build",
+    "build:prod":"build:prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
