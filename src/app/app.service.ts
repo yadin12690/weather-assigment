@@ -14,19 +14,19 @@ private API_KEY = 'vANbqTxIhQQPmX2NOxRsf6VxXn2qKJgo';
 
 
   getWeatherInput(location:string): Observable<any> {
-    return this.http.get( 'http://dataservice.accuweather.com/locations/v1/cities/search?apikey='+this.API_KEY+'&q=' + location);
+    return this.http.get( 'https://dataservice.accuweather.com/locations/v1/cities/search?apikey='+this.API_KEY+'&q=' + location);
   }
 
   getCurrentConditions(cityKey:string): Observable<any>{
-    return this.http.get('http://dataservice.accuweather.com/currentconditions/v1/'+cityKey+'?apikey='+this.API_KEY);
+    return this.http.get('https://dataservice.accuweather.com/currentconditions/v1/'+cityKey+'?apikey='+this.API_KEY);
   }
 
   getTLVWeather(){
-    return this.http.get('http://dataservice.accuweather.com/currentconditions/v1/215854?apikey='+this.API_KEY);
+    return this.http.get('https://dataservice.accuweather.com/currentconditions/v1/215854?apikey='+this.API_KEY);
   }
 
   get5DaysForecasts(cityKey: string): Observable<any> {
-    return this.http.get('http://dataservice.accuweather.com/forecasts/v1/daily/5day/'+cityKey+'?apikey='+this.API_KEY);
+    return this.http.get('https://dataservice.accuweather.com/forecasts/v1/daily/5day/'+cityKey+'?apikey='+this.API_KEY);
   }
 
 /*
